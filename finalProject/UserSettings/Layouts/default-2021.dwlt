@@ -49,6 +49,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     height: 1120
 =======
+    height: 986
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
     height: 986
@@ -133,6 +134,7 @@ MonoBehaviour:
   controlID: 22
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
+  controlID: 22
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 --- !u!114 &6
 MonoBehaviour:
@@ -165,6 +167,7 @@ MonoBehaviour:
   controlID: 23
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
+  controlID: 23
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 --- !u!114 &7
 MonoBehaviour:
@@ -197,6 +200,7 @@ MonoBehaviour:
   controlID: 24
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
+  controlID: 24
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 --- !u!114 &8
 MonoBehaviour:
@@ -255,6 +259,7 @@ MonoBehaviour:
   controlID: 45
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
+  controlID: 45
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 --- !u!114 &10
 MonoBehaviour:
@@ -735,6 +740,9 @@ MonoBehaviour:
       m_LastClickedID: -1816
       m_ExpandedIDs: 24f6ffff2efbffff10600000
 =======
+      m_SelectedIDs: 7c9c0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 9abdffff
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
       m_SelectedIDs: 7c9c0000
@@ -964,6 +972,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     - Assets/Scripts
 =======
+    - Assets/Animations
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
     - Assets/Animations
