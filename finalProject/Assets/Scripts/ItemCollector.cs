@@ -7,6 +7,8 @@ public class ItemCollector : MonoBehaviour
 {
    
    private int goldCoins = 0;
+    public AudioSource collectSE;
+
 
     [SerializeField] private Text goldCoinsText;
 
@@ -14,6 +16,7 @@ public class ItemCollector : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("GoldCoin"))
         {
+            collectSE.Play();
             Destroy(collision.gameObject);
             goldCoins++;
             goldCoinsText.text = "Gold coins: " + goldCoins;

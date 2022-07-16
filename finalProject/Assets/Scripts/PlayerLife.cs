@@ -7,6 +7,8 @@ public class PlayerLife : MonoBehaviour
 {
     private Animator animation;
     private Rigidbody2D rb;
+    public AudioSource dieSE;
+
 
    private void Start()
     {
@@ -24,12 +26,14 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
+        dieSE.Play();
         rb.bodyType = RigidbodyType2D.Static;
         animation.SetTrigger("death");
     }
 
     private void RestartLevel()
     {
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

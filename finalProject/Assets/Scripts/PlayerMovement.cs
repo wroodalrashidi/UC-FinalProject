@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private enum MovementState{idel, running, jumping}
 
+    public AudioSource jumpSE;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -36,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jump);
+            jumpSE.Play();
         }
 
         UpdateAnimationState();
