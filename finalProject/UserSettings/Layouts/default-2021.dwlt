@@ -46,7 +46,10 @@ MonoBehaviour:
     y: 0
     width: 1792
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 1120
+=======
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
     height: 986
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
@@ -124,9 +127,12 @@ MonoBehaviour:
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 290
 =======
   controlID: 22
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
+=======
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 --- !u!114 &6
 MonoBehaviour:
@@ -153,9 +159,12 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 291
 =======
   controlID: 23
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
+=======
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 --- !u!114 &7
 MonoBehaviour:
@@ -182,9 +191,12 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 292
 =======
   controlID: 24
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
+=======
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 --- !u!114 &8
 MonoBehaviour:
@@ -237,9 +249,12 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 293
 =======
   controlID: 45
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
+=======
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 --- !u!114 &10
 MonoBehaviour:
@@ -260,7 +275,11 @@ MonoBehaviour:
     y: 0
     width: 686.5
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 634
+=======
+    height: 554.5
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
     height: 554.5
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
@@ -711,9 +730,12 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: e8f8ffff
       m_LastClickedID: -1816
       m_ExpandedIDs: 24f6ffff2efbffff10600000
+=======
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
       m_SelectedIDs: 7c9c0000
       m_LastClickedID: 0
@@ -939,7 +961,10 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts
+=======
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
     - Assets/Animations
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
@@ -949,9 +974,15 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/wrood/Desktop/GameDev/UC-FinalProject/finalProject
+=======
+  - Assets/Animations
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: /Users/wrood/Desktop/UC-FinalProjectFINAL/finalProject
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
   - Assets/Animations
   m_LastFoldersGridSize: -1
@@ -962,9 +993,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 74610000
     m_LastClickedID: 24948
     m_ExpandedIDs: 00000000ee600000f0600000f2600000f4600000f6600000f860000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 7c9c0000
+    m_LastClickedID: 40060
+    m_ExpandedIDs: 000000007a9c000000ca9a3bffffff7f
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
     m_SelectedIDs: 7c9c0000
     m_LastClickedID: 40060
@@ -998,7 +1035,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ee600000f0600000f2600000f4600000f6600000f860000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 
+>>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
 =======
     m_ExpandedIDs: 
 >>>>>>> 8d03a7b2b6f173efb3bbf96783ca910754faa808
