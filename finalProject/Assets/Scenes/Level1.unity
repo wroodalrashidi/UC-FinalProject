@@ -346,7 +346,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &153719690
 GameObject:
@@ -1062,7 +1062,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -7, y: -2, z: 0}
-  m_Size: {x: 36, y: 10, z: 1}
+  m_Size: {x: 36, y: 26, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -1222,6 +1222,11 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!4 &184522328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
+  m_PrefabInstance: {fileID: 1559837388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &215180953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 215180954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Saw2(sticks)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1289,7 +1294,7 @@ Transform:
   - {fileID: 103547089}
   - {fileID: 296786693}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &296786692
 GameObject:
@@ -1322,6 +1327,11 @@ Transform:
   m_Father: {fileID: 267113895}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &345635098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
+  m_PrefabInstance: {fileID: 721810041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &400943119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7658164463299950569, guid: c2316fbcf773a4577b7f2dc7f001e505, type: 3}
@@ -1342,6 +1352,10 @@ PrefabInstance:
     - target: {fileID: 2172499600234748810, guid: 508fb4bf8763e4aedab2345d9f43200a, type: 3}
       propertyPath: m_Name
       value: Saw
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172499600234748810, guid: 508fb4bf8763e4aedab2345d9f43200a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2172499600234748811, guid: 508fb4bf8763e4aedab2345d9f43200a, type: 3}
       propertyPath: m_RootOrder
@@ -1467,7 +1481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 679932480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wayPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -1498,7 +1512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 711956798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Saw1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1528,7 +1542,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1774186185}
     m_Modifications:
     - target: {fileID: 7237262143485967466, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_Name
@@ -1540,15 +1554,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.807076
+      value: 0.04445076
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.4242756
+      value: 2.7895
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.035902712
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1556,15 +1570,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1652,6 +1666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Saw
       objectReference: {fileID: 0}
+    - target: {fileID: 2172499600234748810, guid: 508fb4bf8763e4aedab2345d9f43200a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2172499600234748811, guid: 508fb4bf8763e4aedab2345d9f43200a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1715,7 +1733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 922211618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wayPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -1920,7 +1938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1973,7 +1991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1378220414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wayPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -2110,7 +2128,7 @@ Transform:
   - {fileID: 215180954}
   - {fileID: 1739233218}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1555515361
 GameObject:
@@ -2121,7 +2139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555515362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wayPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -2148,23 +2166,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1774186185}
     m_Modifications:
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.166584
+      value: 12.403958
       objectReference: {fileID: 0}
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1071086
+      value: 1.472333
       objectReference: {fileID: 0}
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.035902712
       objectReference: {fileID: 0}
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2172,15 +2190,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7883579718650193720, guid: 0dbc21e659174498ab38f0d7ab28a9ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2306,7 +2324,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1774186185}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1566498815
 MonoBehaviour:
@@ -2372,7 +2390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613620740}
   - component: {fileID: 1613620741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2455,7 +2473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1739233218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'Saw3(sticks) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2509,11 +2527,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 184522328}
+  - {fileID: 345635098}
   - {fileID: 95366967}
   - {fileID: 979352054}
   - {fileID: 1566498814}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1790816429
 GameObject:
@@ -2691,7 +2711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1870404051}
   - component: {fileID: 1870404052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stick (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2774,7 +2794,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1930219280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wayPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -2871,7 +2891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2023921154}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wayPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -2906,7 +2926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7237262143485967471, guid: fbcb50302593f46dfa2b2be7e08eb2f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2957,13 +2977,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 622628479965934262, guid: 229af9af019d74a7bb0dca02f35f0a86, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 622628480790487344, guid: 229af9af019d74a7bb0dca02f35f0a86, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 622628480790487346, guid: 229af9af019d74a7bb0dca02f35f0a86, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 622628480790487346, guid: 229af9af019d74a7bb0dca02f35f0a86, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3017,6 +3041,10 @@ PrefabInstance:
     - target: {fileID: 2172499600234748810, guid: 508fb4bf8763e4aedab2345d9f43200a, type: 3}
       propertyPath: m_Name
       value: Saw
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172499600234748810, guid: 508fb4bf8763e4aedab2345d9f43200a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2172499600234748811, guid: 508fb4bf8763e4aedab2345d9f43200a, type: 3}
       propertyPath: m_RootOrder
@@ -3101,7 +3129,7 @@ PrefabInstance:
       objectReference: {fileID: 4619677344863792589}
     - target: {fileID: 2142229527455502558, guid: b80b8ffe93753431b80adc20a01a49c6, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2142229527455502558, guid: b80b8ffe93753431b80adc20a01a49c6, type: 3}
       propertyPath: m_LocalPosition.x

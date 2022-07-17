@@ -20,6 +20,10 @@ public class PlayerMovement : MonoBehaviour
     private enum MovementState{idel, running, jumping}
 
     public AudioSource jumpSE;
+    
+
+    [HideInInspector] public bool isFacingRight = true;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
