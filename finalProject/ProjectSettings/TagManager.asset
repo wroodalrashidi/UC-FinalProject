@@ -7,6 +7,7 @@ TagManager:
   - GoldCoin
   - Trap
   - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - BG
   - 
   - 
   - 
