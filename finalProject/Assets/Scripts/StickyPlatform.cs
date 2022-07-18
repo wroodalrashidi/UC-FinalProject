@@ -21,8 +21,6 @@ private void OnCollisionExit2D(Collision2D collision)
         }
    }
 
-   
-
 
 
 }
